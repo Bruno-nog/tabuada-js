@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(90deg, rgba(0,0,0,0.55) 0%, rgba(160,160,160,1) 50%, rgba(0,0,0,0.55) 100%);
+  font-family: "Nanum Myeongjo", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 100vh;
+}
+
+header h1 {
+  font-weight: 800;
+  color: rgb(63, 63, 63);
+  font-size: 40px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+section {
+  background-color: rgb(247, 216, 116);
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin-bottom: 150px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.237);
+}
+
+div {
+  text-align: center;
+  padding: 8px;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.inputs .btn-tabuada {
+  background-color: rgb(63, 58, 42);
+  border-radius: 5px;
+  text-transform: lowercase;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+  color: rgb(236, 226, 226);
+  transition: .2s ease-in-out;
+}
+
+.inputs .btn-tabuada:hover{
+  transform: scale(1.1);
+  color:rgb(201, 201, 86) ;
+}
+
