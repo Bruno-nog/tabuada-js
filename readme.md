@@ -20,7 +20,7 @@ O projeto se trata de uma tabuada. Colocando qualquer número no input e apertan
 
 ### Links
 
-- Site do projeto: [Projeto](https://bruno-nog.github.io/contador/)
+- Site do projeto: [Projeto](https://bruno-nog.github.io/tabuada-js/)
 
 
 ### Feito com:
